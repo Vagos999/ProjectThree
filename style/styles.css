@@ -1,0 +1,248 @@
+body{
+    background: #002528;
+}
+
+main{
+    display: block;
+}
+
+body.resume-body{
+    width: 1680px;
+    height: 2000px;
+}
+ol{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background: palegreen;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+@media screen and (min-width: 1680px){
+    body.resume-body{
+        width: 1920px;
+    }
+    .resume{
+        width: 1920px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    body.resume-body{
+        width: 1440px;
+    }
+    .resume{
+        width: 1440px;
+    }
+}
+
+ul li{
+    display: list-item;
+    width: 100%;
+    margin: 1% 0%;
+    color: dodgerblue;
+    font-weight: bolder;
+}
+
+ol li {
+    display: inline;
+    margin: 0% 10.8%;
+    font-size: large;
+}
+
+li a{
+    text-decoration: none;
+    background-color: aqua;
+    font-family: "Bauhaus 93";
+    font-size: larger;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: dashed;
+
+    transition: all 1.3s;
+}
+
+li a:hover{
+    border-color: red;
+    color: red;
+}
+
+h1{
+    width: 100%;
+    background: cadetblue;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h2{
+    margin: 50px 0px;
+    background: skyblue;
+    text-align: center;
+    color: maroon;
+}
+
+h2.silvestre{
+    margin: 2% 0%;
+    width: 100%;
+    color: lime;
+    display: inline-block;
+    text-align: center;
+    background: unset;
+}
+
+h2.rocko{
+    margin: 2% 0%;
+    width: 100%;
+    color: sandybrown;
+    display: inline-block;
+    text-align: center;
+    background: unset;
+}
+
+h2.chiqui{
+    margin: 2% 0%;
+    width: 100%;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    background: unset;
+}
+
+h3{
+    width: 100%;
+    color: red;
+    text-align: center;
+    margin-top: 2%;
+    font-size: x-large;
+}
+
+h3.resume{
+    margin-top: 53px;
+}
+
+h3.introduction-heading{
+    font-family: "Bauhaus 93";
+    font-size: xx-large;
+}
+
+h3.work-heading{
+    font-family: "Century Gothic";
+}
+
+h3.video-title{
+    margin: 3% 0%;
+
+    animation-name: colors;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes colors {
+    0% {color: red}
+    20% {color: orange}
+    40% {color: yellow}
+    60% {color: green}
+    80% {color: blue}
+    100% {color: purple}
+}
+
+@keyframes colorsIndex {
+    0% {text-decoration-color: red}
+    20% {text-decoration-color: orange}
+    40% {text-decoration-color: yellow}
+    60% {text-decoration-color: green}
+    80% {text-decoration-color: blue}
+    100% {text-decoration-color: purple}
+}
+
+figure{
+    text-align: center;
+
+}
+figcaption{
+    width: 50%;
+    margin: 0% 25%;
+}
+
+p,ul{
+    color: aqua;
+    font-family: Arial;
+    font-size: large;
+}
+
+p.resume-paragraph{
+    text-align: center;
+    color: dodgerblue;
+}
+
+p.resources-work{
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-color: red;
+
+    animation-name: colorsIndex;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.intro-pets{
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    font-size: large;
+}
+
+iframe{
+    width: 75%;
+    margin: 0% 12.5%;
+    display: inline-block;
+    text-align: center;
+}
+
+.address{
+    font-family: Broadway, cursive;
+    color: gold;
+}
+
+p.paragraph-employment{
+    margin-top: 35px;
+    text-decoration: underline;
+    text-decoration-color: red;
+
+    animation-name: colorsIndex;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#jpmorgan-heading{
+    margin-top: 40px;
+    color: snow;
+}
+
+#akademos-heading{
+    margin-top: 40px;
+    color: magenta;
+}
+
+#chevron-heading{
+    margin-top: 40px;
+    color: yellow;
+}
+
+#introduction-figcaption{
+    font-weight: bolder;
+}
+
+.truman-heading{
+    margin-top: 40px;
+    color: chartreuse;
+}
