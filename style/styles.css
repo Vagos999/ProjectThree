@@ -22,18 +22,22 @@ ol{
 @media screen and (min-width: 1680px){
     body.resume-body{
         width: 1920px;
+        height: 2500px;
     }
     .resume{
         width: 1920px;
+        height: 2500px;
     }
 }
 
 @media screen and (max-width: 1440px){
     body.resume-body{
         width: 1440px;
+        height: 1800px;
     }
     .resume{
         width: 1440px;
+        height: 1800px;
     }
 }
 
