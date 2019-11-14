@@ -246,3 +246,7 @@ p.paragraph-employment{
     margin-top: 40px;
     color: chartreuse;
 }
+
+#map{
+    height: 100%;  /* The height is 400 pixels */
+}

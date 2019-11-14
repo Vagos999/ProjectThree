@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>ITMD 361: Fundamentals of Web Development</title>
+  <meta name="viewport" content="initial-scale=1.0">
   <link rel="stylesheet" href="style/normalize.css">
   <link rel="stylesheet" href="style/styles.css">
 </head>
+
 <body>
   <main>
     <nav>
@@ -16,7 +19,11 @@
         <li><a href="map.html">My Location</a></li>
       </ol>
     </nav>
-    <script src="javascript/maps.js"></script>
+
+    <h1>My Map</h1>
+
+    <div id="map"></div>
+    <script src="javascript/javascript.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuFhHIO4TAGnOAh92DPkv879wNol_PuWY&callback=initMap" async defer></script>
   </main>
 </body>

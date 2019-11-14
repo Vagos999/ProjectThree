@@ -42,6 +42,11 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="FrontEnd Debug" type="JavascriptDebugType" uri="http://localhost:63342/ProjectThree/map.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -52,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573684756194</updated>
-      <workItem from="1573684757293" duration="2489000" />
+      <workItem from="1573684757293" duration="4262000" />
     </task>
     <servers />
   </component>
