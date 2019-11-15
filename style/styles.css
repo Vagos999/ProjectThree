@@ -45,33 +45,59 @@ ol{
     }
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 720px){
 
-    ol li {
-        display: unset;
-        float: left;
-        padding: 0;
-        margin: 0;
+    body.resume-body{
+        width: 1000px;
+        height: 1280px;
+        font-size: 12px;
     }
 
     ol{
+        width: 1000px;
+    }
+
+    h3.resume{
+        margin: 0;
+    }
+
+    h2{
+        width: 500px;
+    }
+
+    h1{
+        width: 500px !important;
+    }
+
+    .resume-body p {
         margin: 0;
         padding: 0;
-        float: left;
     }
 
-    body.resume-body{
-        width: 1440px;
-        height: 1800px;
-        font-size: 5px;
-    }
-    .resume{
-        width: 1440px;
-        height: 1800px;
-        font-size: 5px;
+    p.resume-paragraph{
+        text-align: left !important;
+        word-wrap: break-word;
+        width: 400px;
     }
 
-    p.resume
+    ul li{
+        word-wrap: break-word;
+        width: 400px !important;
+    }
+    .resume-body h3 {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .resume-paragraph{
+        text-align: left;
+    }
+
+    #map{
+        height: 500px;
+        width: 500px;
+    }
 }
 
 ul li{
