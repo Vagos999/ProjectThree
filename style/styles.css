@@ -23,22 +23,55 @@ ol{
     body.resume-body{
         width: 1920px;
         height: 2500px;
+        background-color: purple;
     }
     .resume{
         width: 1920px;
         height: 2500px;
     }
+    ol li {
+        display: unset;
+        float: left;
+        padding: 0;
+        margin: 0;
+        left: 25%;
+    }
+
+    ol{
+        margin: 0;
+        padding: 0;
+        float: left;
+        left: 25%;
+    }
 }
 
 @media screen and (max-width: 1440px){
+
+    ol li {
+        display: unset;
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+
+    ol{
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+
     body.resume-body{
         width: 1440px;
         height: 1800px;
+        font-size: 5px;
     }
     .resume{
         width: 1440px;
         height: 1800px;
+        font-size: 5px;
     }
+
+    p.resume
 }
 
 ul li{
@@ -51,7 +84,7 @@ ul li{
 
 ol li {
     display: inline;
-    margin: 5.4%;
+    margin: 4%;
     font-size: large;
 }
 
