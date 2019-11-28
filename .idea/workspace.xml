@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573684756194</updated>
       <workItem from="1573684757293" duration="15060000" />
-      <workItem from="1574914352079" duration="4474000" />
+      <workItem from="1574914352079" duration="4875000" />
     </task>
     <servers />
   </component>
@@ -80,18 +80,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/javascript/javascript.js</url>
-          <line>18</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProjectThree$Frontend.dat" NAME="Frontend Coverage Results" MODIFIED="1574917485217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
