@@ -1,3 +1,25 @@
+var pictureIndex = 1;
+showPictures(pictureIndex);
+
+function nextPicture(n) {
+    showPictures(pictureIndex += n);
+}
+
+function showPictures(n) {
+    var i;
+    var pictures = document.getElementsByClassName("pictures");
+    if (n > pictures.length) {pictureIndex = 1}
+    if (n < 1) {pictureIndex = pictures.length}
+    for (i = 0; i < pictures.length; i++) {
+        pictures[i].style.display = "none";
+    }
+    if(pictures.length > 0){
+        pictures[pictureIndex-1].style.display = "initial";
+    }
+
+}
+
+
 function initMap() {
 
     var work = {lat: 41.881656, lng: -87.630443};
@@ -128,3 +150,6 @@ function initMap() {
 
     var marker = new google.maps.Marker({position: work, map: map});
 }
+
+
+
